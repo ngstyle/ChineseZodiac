@@ -22,6 +22,7 @@
 		5C9105D41C760B0400F1539D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C9105D71C760B0400F1539D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C9105D91C760B0400F1539D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C9105DF1C76236800F1539D /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 				5C9105D41C760B0400F1539D /* Assets.xcassets */,
 				5C9105D61C760B0400F1539D /* LaunchScreen.storyboard */,
 				5C9105D91C760B0400F1539D /* Info.plist */,
+				5C9105DF1C76236800F1539D /* MyPlayground.playground */,
 			);
 			path = ChineseZodiac;
 			sourceTree = "<group>";

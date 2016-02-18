@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var textYear: UITextField!
+    @IBOutlet weak var imgZodiac: UIImageView!
+    
+    let offset = 4
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +25,18 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        // 隐藏键盘
+        textYear.resignFirstResponder()
+    }
+    
+    @IBAction func btnConfirm(sender: UIButton) {
+        textYear.resignFirstResponder()
+        if let year = Int(textYear.text!) {
+            let num = (year - offset) % 12
+            imgZodiac.image = UIImage(named: String(num))
+        }
+    }
 
 }
 
